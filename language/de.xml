@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.com.uz.box.likes"><![CDATA[Mitglieder mit den meisten Reaktionen (X)]]></item>
+		
+		<item name="wcf.acp.box.uzlikes.condition.action"><![CDATA[Aktion]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.action.give"><![CDATA[Vergeben]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.action.receive"><![CDATA[Erhalten]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.last"><![CDATA[Mitglieder letzter Zeitraum]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.last.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Wähle{else}Wählen Sie{/if} die Anzahl der darzustellenden Mitglieder des vorherigen Zeitraums. „0“ eingeben, um keine Mitglieder anzuzeigen.]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.lastActivity"><![CDATA[Letzte Aktivität]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.lastActivity.description"><![CDATA[Mitglieder müssen in der zurückliegenden Anzahl von Tagen aktiv gewesen sein.]]></item>
+		
+		<item name="wcf.acp.box.uzlikes.condition.period"><![CDATA[Zeitraum]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.period.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Wähle{else}Wählen Sie{/if} den zu berücksichtigenden Zeitraum. {if LANGUAGE_USE_INFORMAL_VARIANT}Du{else}Sie{/if} können den Zeitraum durch den Faktor im nächsten Eingabefeld verlängern.]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.period.value"><![CDATA[Faktor für Zeitraum]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.period.value.description"><![CDATA[Faktor zur Verlängerung des oben gewählten Zeitraum. Es werden nur Werte größer 0 berücksichtigt und zu hohe Werte werden bei Bedarf intern reduziert. Beispiel:<br>„Aktuelle Woche“ und „4“ ergeben einen Zeitraum von 4 Wochen.]]></item>
+		
+		<item name="wcf.acp.box.uzlikes.condition.period.alltime"><![CDATA[Ohne Limit]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.period.curday"><![CDATA[Aktueller Tag]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.period.curweek"><![CDATA[Aktuelle Woche]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.period.curmonth"><![CDATA[Aktueller Monat]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.period.curyear"><![CDATA[Aktuelles Jahr]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.period.day"><![CDATA[Letzter Tag]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.period.week"><![CDATA[Letzte Woche]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.period.month"><![CDATA[Letzter Monat]]></item>
+		<item name="wcf.acp.box.uzlikes.condition.period.year"><![CDATA[Letztes Jahr]]></item>
+		
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.uzboxLikes.last"><![CDATA[Letzter Zeitraum]]></item>
+		<item name="wcf.user.uzboxLikes.likes"><![CDATA[{#$boxUser->uzboxLikes} Reaktion{if $boxUser->uzboxLikes != 1}en{/if}]]></item>
+	</category>
+</language>
