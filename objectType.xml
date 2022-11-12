@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
-	<import>
-		<!-- box controller -->
-		<type>
-			<name>com.uz.box.likes</name>
-			<definitionname>com.woltlab.wcf.boxController</definitionname>
-			<classname>wcf\system\box\UzBoxLikesBoxController</classname>
-		</type>
-		
-		<!-- box controller conditions -->
-		<type>
-			<name>com.uz.box.likes.action</name>
-			<definitionname>com.uz.box.likes.condition</definitionname>
-			<classname>wcf\system\condition\UzBoxLikesActionCondition</classname>
-		</type>
-		
-		<type>
-			<name>com.uz.box.likes.period</name>
-			<definitionname>com.uz.box.likes.condition</definitionname>
-			<classname>wcf\system\condition\UzBoxLikesPeriodCondition</classname>
-		</type>
-		<type>
-			<name>com.uz.box.likes.period.value</name>
-			<definitionname>com.uz.box.likes.condition</definitionname>
-			<classname>wcf\system\condition\UzBoxLikesPeriodValueCondition</classname>
-		</type>
-		
-		<type>
-			<name>com.uz.box.likes.last</name>
-			<definitionname>com.uz.box.likes.condition</definitionname>
-			<classname>wcf\system\condition\UzBoxLikesLastCondition</classname>
-		</type>
-		
-		<type>
-			<name>com.uz.box.likes.lastActivity</name>
-			<definitionname>com.uz.box.likes.condition</definitionname>
-			<classname>wcf\system\condition\UzBoxLikesLastActivityCondition</classname>
-		</type>
- 		<type>
-			<name>com.uz.box.likes.state</name>
-			<definitionname>com.uz.box.likes.condition</definitionname>
-			<classname>wcf\system\condition\UserStateCondition</classname>
-		</type>
-		<type>
-			<name>com.uz.box.likes.groups</name>
-			<definitionname>com.uz.box.likes.condition</definitionname>
-			<classname>wcf\system\condition\UserGroupCondition</classname>
-		</type>
-	</import>
-	
-	<delete>
-		<type name="com.uz.box.likes.type">
-			<definitionname>com.uz.box.likes.condition</definitionname>
-		</type>
-	</delete>
+    <import>
+        <!-- box controller -->
+        <type>
+            <name>com.uz.box.likes</name>
+            <definitionname>com.woltlab.wcf.boxController</definitionname>
+            <classname>wcf\system\box\UzBoxLikesBoxController</classname>
+        </type>
+
+        <!-- box controller conditions -->
+        <type>
+            <name>com.uz.box.likes.action</name>
+            <definitionname>com.uz.box.likes.condition</definitionname>
+            <classname>wcf\system\condition\UzBoxLikesActionCondition</classname>
+        </type>
+
+        <type>
+            <name>com.uz.box.likes.period</name>
+            <definitionname>com.uz.box.likes.condition</definitionname>
+            <classname>wcf\system\condition\UzBoxLikesPeriodCondition</classname>
+        </type>
+        <type>
+            <name>com.uz.box.likes.period.value</name>
+            <definitionname>com.uz.box.likes.condition</definitionname>
+            <classname>wcf\system\condition\UzBoxLikesPeriodValueCondition</classname>
+        </type>
+
+        <type>
+            <name>com.uz.box.likes.last</name>
+            <definitionname>com.uz.box.likes.condition</definitionname>
+            <classname>wcf\system\condition\UzBoxLikesLastCondition</classname>
+        </type>
+
+        <type>
+            <name>com.uz.box.likes.lastActivity</name>
+            <definitionname>com.uz.box.likes.condition</definitionname>
+            <classname>wcf\system\condition\UzBoxLikesLastActivityCondition</classname>
+        </type>
+         <type>
+            <name>com.uz.box.likes.state</name>
+            <definitionname>com.uz.box.likes.condition</definitionname>
+            <classname>wcf\system\condition\UserStateCondition</classname>
+        </type>
+        <type>
+            <name>com.uz.box.likes.groups</name>
+            <definitionname>com.uz.box.likes.condition</definitionname>
+            <classname>wcf\system\condition\UserGroupCondition</classname>
+        </type>
+    </import>
+
+    <delete>
+        <type name="com.uz.box.likes.type">
+            <definitionname>com.uz.box.likes.condition</definitionname>
+        </type>
+    </delete>
 </data>
