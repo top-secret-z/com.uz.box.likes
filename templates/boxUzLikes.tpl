@@ -4,7 +4,7 @@
             <a href="{link controller='User' object=$boxUser}{/link}" aria-hidden="true">{@$boxUser->getAvatar()->getImageTag(32)}</a>
 
             <div class="sidebarItemTitle">
-                <h3><a href="{link controller='User' object=$boxUser}{/link}" class="userLink" data-user-id="{@$boxUser->userID}">{$boxUser->username}</a></h3>
+                <h3>{user object=$boxUser}</h3>
                 <small>{lang}wcf.user.uzboxLikes.likes{/lang}</small>
             </div>
         </li>
@@ -18,7 +18,7 @@
                 <a href="{link controller='User' object=$boxUser}{/link}" aria-hidden="true">{@$boxUser->getAvatar()->getImageTag(32)}</a>
 
                 <div class="sidebarItemTitle">
-                    <h3><a href="{link controller='User' object=$boxUser}{/link}" class="userLink" data-user-id="{@$boxUser->userID}">{$boxUser->username}</a></h3>
+                    <h3>{user object=$boxUser}</h3>
                     <small>{lang}wcf.user.uzboxLikes.likes{/lang}</small>
                 </div>
             </li>
